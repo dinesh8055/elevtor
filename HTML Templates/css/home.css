@@ -1,0 +1,270 @@
+/* ELEMENTS */
+body{
+	padding-top: 4.5em;
+	color: #00aeef;
+	font-family: AvenirLight;
+	letter-spacing: 0.1em;
+}
+
+input {
+	padding-left: 0.5em;
+	font-size: 1.3em;
+	line-height: 0.5em;
+	letter-spacing: 0.1em;
+	vertical-align: middle;
+}
+
+a {
+	color: #00aeef;
+}
+
+/* CLASSES */
+.center_align {
+	text-align: center;
+}
+
+.float_left {
+	float: left;
+}
+
+.float_right {
+	float: right;
+}
+
+.menu-bar { 
+	height: 4.5em;
+ 	background-color: white;
+ 	box-shadow: 0 0.063em 0.563em 0.063em rgba(0, 174, 239, 0.2);
+}
+
+.navbar-left {
+	padding-top: 1em;
+	padding-left: 2em;
+}
+
+.sign-in {
+	margin-right: 2em;
+	padding-top: 20%;
+	font-size: 1.25em;
+	letter-spacing: 0.1em;
+}
+
+.jumbotron {
+	height: auto;
+	background-image: url("../assets/home_background.png");
+	background-size: cover;
+}
+
+.jumbotron_text {
+	color: white;
+	font-size: 3.8em;
+	letter-spacing: 0.1em;
+	line-height: 1.8em;
+}
+
+.sub_text {
+	font-size: 2em;
+	letter-spacing: 0.05em;
+	line-height: 2em;
+}
+
+.search_container {
+	height: 22.5em;
+	padding-top: 4em;
+	line-height: 6em;
+}
+
+.search_forms {
+	height: 3em;
+	width: 20em;
+	margin-bottom: 2em;
+	vertical-align: middle;
+	border: 0.063em solid #00aeef;
+	border-radius: 0.5em;
+}
+
+::-webkit-input-placeholder  {
+	color: #00aeef;
+	letter-spacing: 0.1em;
+}
+
+:-moz-placeholder {
+	color: #00aeef;
+	letter-spacing: 0.1em;
+}
+
+.search_button {
+	height: 4em;
+	width: 15em;
+	line-height: 3.5em;
+	text-align: bottom;
+	background-color: #00aeef;
+	box-shadow: 0 0.063em 0.563em 0.063em rgba(0, 174, 239, 0.2);
+	border: 0.188em solid #00aeef;
+	border-radius: 0.8em;
+}
+
+.search_button_text {
+	height: 2.875em;
+	width: 13.25em;
+	color: white;
+	font-size: 2em;
+	font-family: AvenirMedium;
+	letter-spacing: 0.1em;
+}
+
+.experts_companies {
+	padding-bottom: 1em;
+	font-size: 2.8em;
+	letter-spacing: 0.05em;
+	line-height: 2em;
+}
+
+.experts_companies_options {
+	font-size: 1.8em;
+	letter-spacing: 0.05em;
+}
+
+.experts_companies_options_icon {
+	height: auto;
+	max-height: 3em;
+	max-width: 5em;
+}
+
+.how_elevtor_works_box {
+	margin-top: 4em;
+	height: auto;
+	background-color: #daf3fd;
+	border: 0.188em solid #bfebfb;
+}
+
+.how_elevtor_works_header {
+	padding-top: 1em;
+	height: 3.375em;
+	font-family: AvenirHeavy;
+	font-size: 3em;
+	letter-spacing: 0.1em;
+}
+
+.how_elevtor_works_boxes {
+	margin-top: -0.1em;
+	height: 27em;
+	background-color: #daf3fd;
+	border-top: 0.188em solid #bfebfb;
+	border-right: 0.188em solid #bfebfb;
+	border-bottom: 0.188em solid #bfebfb;
+}
+
+.first {
+	border-left: 0.188em solid #bfebfb;
+}
+
+.propaganda_icons {
+	padding-top: 2em;
+	max-width: 15em;
+	max-height: 15em;
+}
+
+.how_elevtor_works_boxes_texts {
+	padding-top: 5%;
+	padding-left: 10%;
+	width: 90%;
+	font-size: 1.8em;
+	letter-spacing: 0.1em;
+}
+
+.depo_images {
+	padding-right: 0.5em;
+	max-width: 10.875em;
+	max-height: 12.75em;
+}	
+
+.level_1 {
+	font-size: 1.5em;
+	line-height: 1.6em;
+}
+
+.level_2 {
+	font-size: 1.1em;
+	font-style: italic;
+	vertical-align: bottom;
+	line-height: 2em;
+}
+
+.level_3 {
+	font-size: 0.9em;
+	vertical-align: bottom;
+	line-height: 1.5em;
+}
+
+.footer {
+	margin-top: 5em;
+	margin-bottom: 11.5%;
+	height: 0.063em;
+	background-color: #7fd6f7;
+}
+
+.footer_logo_text {
+	padding-top: 0.8em; 
+	font-size: 1.15em;
+	line-height: 1.8em;
+	letter-spacing: 0.15em;
+}
+
+.footer_col {
+	margin-top: 1em;
+	font-family: AvenirMedium;
+	font-size: 1.5em;
+	letter-spacing: 0.1em;
+	vertical-align: bottom;
+}
+
+.footer_col_options {
+	font-size: 1em;
+	line-height: 1.4em;
+	letter-spacing: 0.1em;
+	vertical-align: bottom;
+}
+
+.footer_col_2 {
+	padding-left: 0.35em;
+}
+
+.social_media_icons {
+	height: auto;
+	max-height: 1em;
+}
+
+/* IDENTIFICATORS */
+#footer_logo {
+	width: 17em;
+	margin-top: 1em;
+}
+
+/* USED TO REMOVE SPACING BETWEEN COLUMNS */
+.row.no_gutter [class*='col-']:not(:first-child),
+.row.no_gutter [class*='col-']:not(:last-child) {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+/* RESPONSIVE DETAILS */
+@media (max-width: 768px) {
+    body { 
+    	font-size: 80%;
+    }
+
+    #logo_image {
+    	height: 1.5em;
+    }
+}	
+
+@media (max-width: 1365px) {
+    body { 
+    	font-size: 90%;
+    }
+
+    #logo_image {
+    	height: 2.5em;
+    }
+}	
