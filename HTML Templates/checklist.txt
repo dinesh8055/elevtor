@@ -8,7 +8,7 @@ Interviews
 Interviews_Jobs		
 Interviews_part2	
 Interviews_part2b	
-Login			- Working
+Login			- Ok
 Profile			
 Profile_Resume		
 Profile_User		
@@ -20,6 +20,6 @@ Search_Results_part1b
 Search_Results_part2	
 Search_Results_part2_v2	
 Search_Results_part2_v2b
-Signup			
-Signup_b		
-Signup_us		
+Signup			- Ok
+Signup_b		- Ok
+Signup_us		- Ok
