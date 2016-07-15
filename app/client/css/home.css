@@ -268,3 +268,15 @@ a {
     	height: 2.5em;
     }
 }
+
+.testimony {
+	padding-top: 5em;
+}
+
+.footer_info {
+	padding-left: 2.5em;
+}
+
+.help {
+	padding-left: 0.2em
+}
