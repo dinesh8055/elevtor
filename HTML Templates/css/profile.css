@@ -1,0 +1,179 @@
+/* ELEMENTS */
+body{
+	padding-top: 4.5em;
+	color: #00aeef;
+	font-family: AvenirLight;
+	letter-spacing: 0.1em;
+}
+
+input {
+	padding-left: 0.5em;
+	font-size: 1.3em;
+	line-height: 0.5em;
+	letter-spacing: 0.1em;
+	vertical-align: middle;
+}
+
+a {
+	color: #00aeef;
+}
+
+h1 {
+	font-family: AvenirHeavy;
+	font-size: 2.875em;
+	letter-spacing: 0.1em;
+}
+
+h2 {
+    font-family: AvenirLight;
+	font-size: 1.8em;
+    text-align: center;
+}
+
+h3 {
+    font-family: AvenirMedium;
+	font-size: 1.5em;
+    text-align: left;
+}
+
+h4 {
+    font-size: 1.3em;
+	letter-spacing: 0.1em;
+}
+
+/* CLASSES */
+.center_align {
+	text-align: center;
+}
+
+.float_left {
+	float: left;
+}
+
+.float_right {
+	float: right;
+}
+
+.menu-bar { 
+	height: 4.5em;
+ 	background-color: white;
+ 	box-shadow: 0 0.063em 0.563em 0.063em rgba(0, 174, 239, 0.2);
+}
+
+.navbar-left {
+	padding-top: 1em;
+	padding-left: 2em;
+}
+
+.header {
+	padding-top: 2em;
+}
+
+.sign-in {
+	margin-right: 2em;
+	padding-top: 20%;
+	font-size: 1.25em;
+	letter-spacing: 0.1em;
+}
+
+.sidebar_options {
+    font-size: 1.25em;
+    letter-spacing: 0.1em;
+}
+
+.active {
+    font-family: AvenirHeavy;
+}
+
+.signup_forms {
+	height: 2.2em;
+	width: 100%;
+	margin-bottom: 2em;
+    text-align: left;
+	vertical-align: top;
+	border: 0.063em solid #00aeef;
+	border-radius: 0.5em;
+}
+
+::-webkit-input-placeholder  {
+	color: #00aeef;
+	letter-spacing: 0.1em;
+    font-style: italic;
+    text-align: left;
+}
+
+:-moz-placeholder {
+	color: #00aeef;
+	letter-spacing: 0.1em;
+    text-align: left;
+}
+
+.salary_select {
+    margin-top: 0.3em;
+    font-size: 1.5em;
+    letter-spacing: 0.1em;
+    border: 0em solid #00aeef;
+}
+
+.skills_form {
+    width: 15em;
+}
+
+.save_button {
+    width: 15em;
+	height: 3.2em;
+    letter-spacing: 0.2em;
+	background-color: #00aeef;
+	border: 0.188em solid #00aeef;
+	border-radius: 0.5em;
+	box-shadow: 0 0.313em 0.563em 0.063em rgba(0, 174, 239, 0.2);
+}
+
+.save_button_text {
+	color: #fefefe;
+    font-family: AvenirHeavy;
+	font-size: 1.5em;
+}
+
+.photoUpload {
+    position: relative;
+    overflow: hidden;
+    width: 7.5em;
+	height: auto;
+    letter-spacing: 0.2em;
+	background-color: #00aeef;
+	border: 0.188em solid #00aeef;
+	border-radius: 0.5em;
+	box-shadow: 0 0.313em 0.563em 0.063em rgba(0, 174, 239, 0.2);
+}
+
+.photoUpload input.photo_button {
+    position: absolute;
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+
+#desired_salary {
+    width: 60%;
+}
+
+/* RESPONSIVE DETAILS */
+@media (max-width: 768px) {
+    body { 
+    	font-size: 80%;
+    }
+
+    #logo_image {
+    	height: 1.5em;
+    }
+}	
+
+@media (max-width: 1365px) {
+    body { 
+    	font-size: 90%;
+    }
+
+    #logo_image {
+    	height: 2.5em;
+    }
+}	

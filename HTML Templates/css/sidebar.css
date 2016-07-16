@@ -1,0 +1,55 @@
+.sidebar-nav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 5em;
+    box-shadow: 0 0.063em 0.563em 0.063em rgba(0, 174, 239, 0.2);
+}
+
+.sidebar-nav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #00aaef;
+    display: block;
+    transition: 0.3s
+}
+
+.sidebar-nav a:hover, .offcanvas a:focus{
+    color: white;
+    background-color: #00aaef;
+}
+
+.closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px !important;
+    margin-left: 50px;
+}
+
+.side_menu_button {
+    padding-top: 1em;
+    padding-left: 1em;
+    font-size:1em;
+    cursor:pointer;
+}
+
+/* RESPONSIVE DETAILS */
+@media (max-width: 768px) {
+    .sidebar-nav { 
+    	font-size: 80%;
+    }
+}	
+
+@media (max-width: 1365px) {
+    .sidebar-nav { 
+    	font-size: 90%;
+    }
+}
