@@ -1,6 +1,6 @@
 Checklist
 
-Home			- Ok
+Home					- Ok
 Actual_Interview_part1	
 Actual_Interview_part2	
 Actual_Interview_part3	
@@ -8,18 +8,17 @@ Interviews
 Interviews_Jobs		
 Interviews_part2	
 Interviews_part2b	
-Login			- Ok
-Profile			- Ok
-Profile_Resume		
+Login					- Ok
+Profile					- Ok
+Profile_Resume			- Ok
 Profile_User		
-Resume			
+Resume					- Working
 SavedJobs_Resume	
 SavedJobs_Resume_part2	
 Search_Results_part1	
 Search_Results_part1b	
 Search_Results_part2	
-Search_Results_part2_v2	
 Search_Results_part2_v2b
-Signup			- Ok
-Signup_b		- Ok
-Signup_us		- Ok
+Signup					- Ok
+Signup_b				- Ok
+Signup_us				- Ok

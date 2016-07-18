@@ -67,7 +67,7 @@ h4 {
 
 .sign-in {
 	margin-right: 2em;
-	line-height: 3.5em;
+    line-height: 3.5em;
 	font-size: 1.25em;
 	letter-spacing: 0.1em;
 }
@@ -81,42 +81,14 @@ h4 {
     font-family: AvenirHeavy;
 }
 
-.signup_forms {
-	height: 2.2em;
-	width: 100%;
-	margin-bottom: 2em;
-    text-align: left;
-	vertical-align: top;
-	border: 0.063em solid #00aeef;
-	border-radius: 0.5em;
-}
-
-::-webkit-input-placeholder  {
-	color: #00aeef;
-	letter-spacing: 0.1em;
-    font-style: italic;
-    text-align: left;
-}
-
-:-moz-placeholder {
-	color: #00aeef;
-	letter-spacing: 0.1em;
-    text-align: left;
-}
-
-.salary_select {
-    margin-top: 0.3em;
-    font-size: 1.5em;
-    letter-spacing: 0.1em;
-    border: 0em solid #00aeef;
-}
-
-.skills_form {
-    width: 15em;
+.insert_video {
+    height: 30em;
+    width: 100%;
+    background-color: rgba(0, 174, 239, 0.2);
 }
 
 .save_button {
-    width: 15em;
+    width: 25em;
 	height: 3.2em;
     letter-spacing: 0.2em;
 	background-color: #00aeef;
@@ -129,28 +101,6 @@ h4 {
 	color: #fefefe;
     font-family: AvenirHeavy;
 	font-size: 1.5em;
-}
-
-.photoUpload {
-    position: relative;
-    overflow: hidden;
-    width: 7.5em;
-	height: auto;
-    letter-spacing: 0.2em;
-	background-color: #00aeef;
-	border: 0.188em solid #00aeef;
-	border-radius: 0.5em;
-	box-shadow: 0 0.313em 0.563em 0.063em rgba(0, 174, 239, 0.2);
-}
-
-.photoUpload input.photo_button {
-    position: absolute;
-    opacity: 0;
-    filter: alpha(opacity=0);
-}
-
-#desired_salary {
-    width: 60%;
 }
 
 /* RESPONSIVE DETAILS */
