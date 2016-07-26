@@ -4,9 +4,9 @@ Home					- Ok
 Actual_Interview_part1	
 Actual_Interview_part2	
 Actual_Interview_part3	
-Interviews				
-Interviews_Jobs			
-Interviews_part2		
+Interviews				- Ok
+Interviews_Jobs			- Ok
+Interviews_part2		- Ok
 Login					- Ok
 Profile					- Ok
 Profile_Resume			- Ok
@@ -14,9 +14,9 @@ Profile_User
 Resume					- Ok
 SavedJobs_Resume		- Ok
 SavedJobs_Resume_part2	- Ok
-Search_Results_part1	
-Search_Results_part1b	
-Search_Results_part2_v2b
+Search_Results_part1	- Working
+Search_Results_part1b	- Working
+Search_Results_part2_v2b- Working
 Signup					- Ok
 Signup_b				- Ok
 Signup_us				- Ok
