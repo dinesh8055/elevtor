@@ -144,7 +144,6 @@ input .radio_options {
 	width: 50%; /* Somente para col-md */
 	height: auto;
 	border: 0.063em solid #00aeef;
-	border-radius: 20px;
     padding-bottom: 1em;
 }
 
@@ -152,6 +151,8 @@ input .radio_options {
     height: 100%;
     border-top: 0.063em solid #00aeef;
     border-right: 0.063em solid #00aeef;
+    /* USED TO MAKE THE GREY BACKGROUND */
+    /*background-color: rgba(50, 50, 50, 0.2);*/
 }
 
 .results_structure2 {
@@ -167,7 +168,7 @@ input .radio_options {
 	background-color: #00aeef;
 	border: 0.188em solid #00aeef;
 	border-radius: 0.5em;
-	box-shadow: 0 0.313em 0.563em 0.063em rgba(0, 174, 239, 0.2);
+	box-shadow: 0 0.313em 0.563em 0.063em rgba(0, 174, 239, 0.8);
 }
 
 .invert_job_button {
@@ -238,6 +239,15 @@ input .radio_options {
     color: #bbb;
 }
 
+.listing_detail {
+    position: absolute;
+    text-align: center;
+    font-size: 1em;
+    font-style: italic;
+    line-height: 1em;
+    color: #bbb;
+}
+
 .social_links {
     height: 1.5em;
 }
@@ -247,16 +257,6 @@ input .radio_options {
     width: 100%;
     background-color: rgba(0, 174, 239, 0.2);
 }
-
-#job_3 .job_box {
-    color: #bbb;
-    border: 0.1em solid #bbb;
-}
-
-.tamanho {
-    height: 100%;
-}
-
 
 .bottom_space {
     padding-bottom: 3em;
