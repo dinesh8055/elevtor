@@ -24,6 +24,12 @@ h1 {
 	letter-spacing: 0.1em;
 }
 
+h2 {
+    font-family: AvenirLight;
+	font-size: 1.8em;
+    text-align: center;
+}
+
 h4 {
     font-size: 1.3em;
 	letter-spacing: 0.1em;
@@ -53,15 +59,38 @@ h4 {
 	padding-left: 2em;
 }
 
-.header {
-	padding-top: 2em;
-}
-
 .sign-in {
 	margin-right: 2em;
 	line-height: 3.5em;
 	font-size: 1.25em;
 	letter-spacing: 0.1em;
+}
+
+.user_type {
+    width: 20em;
+	height: 3em;
+    color: #00aeef;
+	background-color: white;
+	border: 0.188em solid #00aeef;
+	border-radius: 0.5em;
+	box-shadow: 0 0.313em 0.563em 0.063em rgba(0, 174, 239, 0.2);
+}
+
+.active {
+    background-color: #00aeef;
+	box-shadow: inset 0 0.313em 0.563em 0.063em rgba(0, 0, 0, 0.2);
+}
+
+.user_type_text {
+    color: white;
+    font-family: AvenirMedium;
+    font-size: 1.5em;
+    line-height: 1.5em;
+    letter-spacing: 0.2em;
+}
+
+.text_active {
+    color: #00aeef;
 }
 
 .social_media_login {
@@ -104,8 +133,8 @@ h4 {
 	background-color: #007bb6;
 }
 
-.login_forms {
-	height: 2.5em;
+.signup_forms {
+	height: 2.2em;
 	width: 100%;
 	margin-bottom: 2em;
     text-align: left;
@@ -117,6 +146,7 @@ h4 {
 ::-webkit-input-placeholder  {
 	color: #00aeef;
 	letter-spacing: 0.1em;
+    font-style: italic;
     text-align: left;
 }
 
@@ -126,7 +156,7 @@ h4 {
     text-align: left;
 }
 
-.login_button {
+.signup_button {
     width: 15em;
 	height: 3.2em;
     letter-spacing: 0.2em;
@@ -136,7 +166,7 @@ h4 {
 	box-shadow: 0 0.313em 0.563em 0.063em rgba(0, 174, 239, 0.2);
 }
 
-.login_button_text {
+.signup_button_text {
 	color: #fefefe;
     font-family: AvenirHeavy;
 	font-size: 1.5em;
@@ -145,7 +175,7 @@ h4 {
 /* RESPONSIVE DETAILS */
 @media (max-width: 768px) {
     body { 
-    	font-size: 70%;
+    	font-size: 80%;
     }
 
     #logo_image {
@@ -155,7 +185,7 @@ h4 {
 
 @media (max-width: 1365px) {
     body { 
-    	font-size: 80%;
+    	font-size: 90%;
     }
 
     #logo_image {

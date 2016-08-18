@@ -1,25 +1,22 @@
 Checklist
 
-Home			- Ok
+Home					- Ok
 Actual_Interview_part1	
 Actual_Interview_part2	
 Actual_Interview_part3	
-Interviews		
-Interviews_Jobs		
-Interviews_part2	
-Interviews_part2b	
-Login			- Working
-Profile			
-Profile_Resume		
-Profile_User		
-Resume			
-SavedJobs_Resume	
-SavedJobs_Resume_part2	
-Search_Results_part1	
-Search_Results_part1b	
-Search_Results_part2	
-Search_Results_part2_v2	
-Search_Results_part2_v2b
-Signup			
-Signup_b		
-Signup_us		
+Interviews				- Ok
+Interviews_Jobs			- Ok
+Interviews_part2		- Ok
+Login					- Ok
+Profile					- Ok
+Profile_Resume			- Ok
+Profile_User			- Ok
+Resume					- Ok
+SavedJobs_Resume		- Ok
+SavedJobs_Resume_part2	- Ok
+Search_Results_part1	- Ok
+Search_Results_part1b	- Ok
+Search_Results_part2_v2b- Ok
+Signup					- Ok
+Signup_b				- Ok
+Signup_us				- Ok

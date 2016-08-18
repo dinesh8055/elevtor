@@ -24,6 +24,18 @@ h1 {
 	letter-spacing: 0.1em;
 }
 
+h2 {
+    font-family: AvenirLight;
+	font-size: 1.8em;
+    text-align: center;
+}
+
+h3 {
+    font-family: AvenirMedium;
+	font-size: 1.5em;
+    text-align: left;
+}
+
 h4 {
     font-size: 1.3em;
 	letter-spacing: 0.1em;
@@ -53,81 +65,54 @@ h4 {
 	padding-left: 2em;
 }
 
-.header {
-	padding-top: 2em;
-}
-
 .sign-in {
 	margin-right: 2em;
-	line-height: 3.5em;
+    line-height: 3.5em;
 	font-size: 1.25em;
 	letter-spacing: 0.1em;
 }
 
-.social_media_login {
+.back_button {
+    width: 10em;
 	height: 3em;
-	width: 16em;
-	font-size: 1em;
-  	border: none;
-}
-
-.login_social_text {
-    color: white;
-    font-family: AvenirLight;
-    line-height: 2.2em;
-    letter-spacing: 0.1em;
-}
-
-.social_media_icons {
-	height: auto;
-	max-height: 2em;
-    padding-left: 0.5em;
-}
-
-.linkedin {
-	background-color: #007bb6;
-}
-
-.facebook {
-	background-color: #3b5998;
-}
-
-.twitter {
-	background-color: #09f;
-}
-
-.google {
-	background-color: #d34836;
-}
-
-.microsoft {
-	background-color: #007bb6;
-}
-
-.login_forms {
-	height: 2.5em;
-	width: 100%;
-	margin-bottom: 2em;
-    text-align: left;
-	vertical-align: middle;
-	border: 0.063em solid #00aeef;
+    margin-top: 1em;
+    position: relative;
+    letter-spacing: 0.2em;
+    background-color: #00aeef;
+	border: 0.188em solid #00aeef;
 	border-radius: 0.5em;
+	box-shadow: 0 0.313em 0.563em 0.063em rgba(0, 174, 239, 0.2);
 }
 
-::-webkit-input-placeholder  {
-	color: #00aeef;
-	letter-spacing: 0.1em;
-    text-align: left;
+.back_button_text {
+	color: #fefefe;
+    font-family: AvenirHeavy;
+	font-size: 1.5em;
 }
 
-:-moz-placeholder {
-	color: #00aeef;
-	letter-spacing: 0.1em;
-    text-align: left;
+.insert_video {
+    height: 30em;
+    width: 100%;
+    background-color: rgba(0, 174, 239, 0.2);
 }
 
-.login_button {
-    width: 15em;
+.ellipse {
+	height: 4em;
+    width: 4em;
+    margin: 0 auto;
+	border: 0.2em solid #00aeef;
+    border-radius: 100%;
+}
+
+.rectangle {
+    height: 2em;
+    width: 2em;
+    margin: 0.8em auto;
+	border: 0.2em solid #00aeef;
+}
+
+.submit_upload_button {
+    width: 20em;
 	height: 3.2em;
     letter-spacing: 0.2em;
 	background-color: #00aeef;
@@ -136,7 +121,7 @@ h4 {
 	box-shadow: 0 0.313em 0.563em 0.063em rgba(0, 174, 239, 0.2);
 }
 
-.login_button_text {
+.submit_upload_button_text {
 	color: #fefefe;
     font-family: AvenirHeavy;
 	font-size: 1.5em;
@@ -145,7 +130,7 @@ h4 {
 /* RESPONSIVE DETAILS */
 @media (max-width: 768px) {
     body { 
-    	font-size: 70%;
+    	font-size: 80%;
     }
 
     #logo_image {
@@ -155,7 +140,7 @@ h4 {
 
 @media (max-width: 1365px) {
     body { 
-    	font-size: 80%;
+    	font-size: 90%;
     }
 
     #logo_image {
