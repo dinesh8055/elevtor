@@ -1,12 +1,12 @@
 import React from 'react';
 
-const UploadResume = React.createClass({
+class UploadResume extends React.Component {
   render() {
     return (
       <div>
 
           Upload Resume Page
-        
+
 
 
   OnClick: Check user signed in
@@ -18,6 +18,6 @@ const UploadResume = React.createClass({
       </div>
     )
   }
-});
+};
 
 export default UploadResume;

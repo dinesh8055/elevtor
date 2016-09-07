@@ -1,17 +1,22 @@
 import React from 'react';
 import { render } from 'react-dom';
-
+import { Router, browserHistory } from 'react-router';
+import routes from './routes';
 import css from './css/home.css'
 
-import Landing from './components/Landing/index.js'
+import {loadJobs, loadSavedJobs, loadInterviews} from './actions/jobActions';
+import { Provider } from 'react-redux';
+import configureStore from './store/configureStore';
 
-import { Router, Route, IndexRoute, browserHistory } from 'react-router';
+const store = configureStore();
+// store.dispatch(loadJobs());
+// store.dispatch(loadSavedJobs());
+// store.dispatch(loadInterviews());
 
 const router = (
-  <Router history={browserHistory}>
-    <Route path="/" component={Landing}>
-    </Route>
-  </Router>
+ <Provider store={store}>
+    <Router history={browserHistory} routes={routes} />
+ </Provider>
 )
 
 render(router, document.getElementById('root'));

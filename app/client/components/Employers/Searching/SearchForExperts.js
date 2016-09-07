@@ -1,6 +1,6 @@
 import React from 'react';
 
-const SearchForExperts = React.createClass({
+class SearchForExperts extends React.Component {
   render() {
     return (
       <div>
@@ -16,6 +16,6 @@ No: redirect to signup page
       </div>
     )
   }
-});
+}
 
 export default SearchForExperts;

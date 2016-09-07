@@ -9,7 +9,7 @@ class Navbar extends React.Component {
           <img src="assets/Elevtor.png" alt="Elevtor Logo" id="logo_image" />
         </Link>
         <div className="navbar-right float_right">
-          <div className="sign-in"><Link to="/">Sign in</Link></div>
+          <div className="sign-in"><Link to="/login">Sign in</Link></div>
         </div>
       </div>
     );

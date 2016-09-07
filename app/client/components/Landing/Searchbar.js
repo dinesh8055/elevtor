@@ -28,7 +28,7 @@ class Searchbar extends React.Component {
               </div>
               <div className="row">
                 <button className="search_button">
-                  <span className="search_button_text">Search</span>
+                  <Link to="/search" className="search_button_text">Search</Link>
                 </button>
               </div>
             </div>
