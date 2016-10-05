@@ -2,15 +2,12 @@
 
 <?php
 
+
+
     if($_POST){
+      include 'environment.php';
+      $con=mysql_connect($_ENV["DB_HOST"],$_ENV["DB_USER"],$_ENV["DB_PASSWORD"]) or die("Failed to connect to MySQL: " . mysql_error()); $db=mysql_select_db($_ENV["DB_NAME"],$con) or die("Failed to connect to MySQL: " . mysql_error());
 
-        //codigo comum aos dois requests, como conexão e etc
-        define('DB_HOST', '162.144.203.41');
-        define('DB_NAME', 'elevtorc_signup');
-        define('DB_USER','elevtorc_control');
-        define('DB_PASSWORD','XZSA72tDzX');
-
-        $con=mysql_connect(DB_HOST,DB_USER,DB_PASSWORD) or die("Failed to connect to MySQL: " . mysql_error()); $db=mysql_select_db(DB_NAME,$con) or die("Failed to connect to MySQL: " . mysql_error());
 
         if($_POST['submit_user'])
         {
@@ -190,11 +187,7 @@
 
         <div class="container-fluid first" id="home">
 
-            <?php
-
-                if($results === 'completed') {
-
-            ?>
+            <?php  if($results === 'completed'):  ?>
 
             <div class="row center_align" id="confirmation">
                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
@@ -204,11 +197,8 @@
                 </div>
             </div>
 
-            <?php }
-
-                if ($results === 'repeated') {
-
-            ?>
+          <?php endif ?>
+          <?php if ($results === 'repeated'): ?>
 
             <div class="row center_align" id="repeated">
                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
@@ -218,7 +208,7 @@
                 </div>
             </div>
 
-            <?php } ?>
+          <?php endif ?>
 
             <div class="row center_align">
                 <div class="col-xs-12 col-sm-offset-1 col-sm-10 col-md-offset-2 col-md-8 col-lg-offset-2 col-lg-8">
