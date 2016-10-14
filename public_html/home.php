@@ -1,89 +1,5 @@
 <!DOCTYPE html>
 
-<?php
-
-
-
-    if($_POST){
-      include 'environment.php';
-      $con=mysql_connect($_ENV["DB_HOST"],$_ENV["DB_USER"],$_ENV["DB_PASSWORD"]) or die("Failed to connect to MySQL: " . mysql_error()); $db=mysql_select_db($_ENV["DB_NAME"],$con) or die("Failed to connect to MySQL: " . mysql_error());
-
-
-        if($_POST['submit_user'])
-        {
-            function NewUser() {
-
-                $email = $_POST['email'];
-                $query = "INSERT INTO users (email) VALUES ('" . $email . "')";
-                $data = mysql_query ($query)or die(mysql_error());
-
-                if($data) {
-                    $results = 'completed';
-
-                    return $results;
-                }
-            }
-
-            function SignUp() {
-
-                if(!empty($_POST['email'])) {
-
-                    $query = mysql_query("SELECT email FROM users WHERE email = '" . $_POST['email'] . "'") or die(mysql_error());
-
-                    if(mysql_num_rows($query)==0) {
-                        $results = NewUser();
-                    } else {
-                        $results = 'repeated';
-                    }
-
-                    return $results;
-                }
-            }
-
-            SignUp();
-        }
-
-        if($_POST['submit_client'])
-        {
-            function NewClient() {
-
-                $client_name = $_POST['client_name'];
-                $company_name = $_POST['company_name'];
-                $email_2 = $_POST['email_2'];
-                $team_size = $_POST['team_size'];
-                $message = $_POST['message'];
-                $query = "INSERT INTO clients (client_name, company_name, email, team_size, message) VALUES ('" . $client_name . "', '" . $company_name . "', '" . $email_2 . "', '" . $team_size . "', '" . $message . "')";
-                $data = mysql_query ($query)or die(mysql_error());
-
-                if($data) {
-                    $results = 'completed';
-
-                    return $results;
-                }
-            }
-
-            function SignUp() {
-
-                if(!empty($_POST['email_2'])) {
-
-                    $query = mysql_query("SELECT email FROM clients WHERE email = '" . $_POST['email_2'] . "'") or die(mysql_error());
-
-                    if(mysql_num_rows($query)==0) {
-                        $results = NewClient();
-                    } else {
-                        $results = 'repeated';
-                    }
-
-                    return $results;
-                }
-            }
-
-            SignUp();
-        }
-    }
-
-?>
-
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="utf-8">
@@ -108,6 +24,8 @@
     <![endif]-->
 </head>
 <body>
+
+    <?php  include 'signup.php';  ?>
 
     <div id="dark_background" class="">
         <div class="col-xs-offset-2 col-xs-8 col-sm-offset-2 col-sm-8 col-md-offset-3 col-md-6 col-lg-offset-3 col-lg-6">
@@ -187,28 +105,16 @@
 
         <div class="container-fluid first" id="home">
 
-            <?php  if($results === 'completed'):  ?>
-
-            <div class="row center_align" id="confirmation">
-                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                    <div class="row">
-                        <span class="confirmation_text" style="margin-top: 10em">Your registration is completed!</span>
-                    </div>
-                </div>
-            </div>
-
-          <?php endif ?>
-          <?php if ($results === 'repeated'): ?>
-
-            <div class="row center_align" id="repeated">
-                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                    <div class="row">
-                        <span class="repeated_text" style="margin-top: 10em">Thank you! Your e-mail has already been registered!</span>
-                    </div>
-                </div>
-            </div>
-
-          <?php endif ?>
+        <?php  extract($results)
+              if($results === 'completed'):  ?>
+          <div class="row center_align" id="repeated">
+              <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                  <div class="row">
+                      <span class="repeated_text" style="margin-top: 10em"><?= $results ?></span>
+                  </div>
+              </div>
+          </div>
+        <?php endif ?>
 
             <div class="row center_align">
                 <div class="col-xs-12 col-sm-offset-1 col-sm-10 col-md-offset-2 col-md-8 col-lg-offset-2 col-lg-8">
