@@ -66,7 +66,7 @@ h6 {
 	float: right;
 }
 
-.menu-bar { 
+.menu-bar {
 	height: 4.5em;
  	background-color: white;
  	box-shadow: 0 0.063em 0.563em 0.063em rgba(0, 174, 239, 0.2);
@@ -231,21 +231,21 @@ h6 {
 
 /* RESPONSIVE DETAILS */
 @media (max-width: 768px) {
-    body { 
+    body {
     	font-size: 80%;
     }
 
     #logo_image {
     	height: 1.5em;
     }
-}	
+}
 
 @media (max-width: 1365px) {
-    body { 
+    body {
     	font-size: 90%;
     }
 
     #logo_image {
     	height: 2.5em;
     }
-}	
+}
