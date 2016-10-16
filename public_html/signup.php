@@ -4,7 +4,6 @@
       include 'environment.php';
       $con=mysql_connect($_ENV["DB_HOST"],$_ENV["DB_USER"],$_ENV["DB_PASSWORD"]) or die("Failed to connect to MySQL: " . mysql_error()); $db=mysql_select_db($_ENV["DB_NAME"],$con) or die("Failed to connect to MySQL: " . mysql_error());
 
-
         if($_POST['submit_user'])
         {
             function NewUser() {
@@ -14,8 +13,7 @@
                 $data = mysql_query ($query)or die(mysql_error());
 
                 if($data) {
-                    $results = 'completed';
-
+                    $results = 'Registration complete! Thank you!';
                     return $results;
                 }
             }
@@ -29,14 +27,14 @@
                     if(mysql_num_rows($query)==0) {
                         $results = NewUser();
                     } else {
-                        $results = 'repeated';
+                        $results = 'Your email has already been registered! Thank you!';
                     }
 
                     return $results;
                 }
             }
 
-            SignUp();
+            $status = SignUp();
         }
 
         if($_POST['submit_client'])
@@ -52,7 +50,7 @@
                 $data = mysql_query ($query)or die(mysql_error());
 
                 if($data) {
-                    $results = 'completed';
+                    $results = 'Registration complete! Thank you!';
 
                     return $results;
                 }
@@ -67,14 +65,14 @@
                     if(mysql_num_rows($query)==0) {
                         $results = NewClient();
                     } else {
-                        $results = 'repeated';
+                        $results = 'Your email has already been registered! Thank you!';
                     }
 
                     return $results;
                 }
             }
 
-            SignUp();
+            $status = SignUp();
         }
     }
 

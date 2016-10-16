@@ -105,12 +105,11 @@
 
         <div class="container-fluid first" id="home">
 
-        <?php  extract($results)
-              if($results === 'completed'):  ?>
+        <?php  if($status):  ?>
           <div class="row center_align" id="repeated">
               <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                   <div class="row">
-                      <span class="repeated_text" style="margin-top: 10em"><?= $results ?></span>
+                      <span class="repeated_text" style="margin-top: 10em"> <?= htmlspecialchars($status) ?></span>
                   </div>
               </div>
           </div>
