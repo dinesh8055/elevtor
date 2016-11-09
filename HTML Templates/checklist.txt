@@ -1,0 +1,22 @@
+Checklist
+
+Home					- Ok
+Actual_Interview_part1	
+Actual_Interview_part2	
+Actual_Interview_part3	
+Interviews				- Ok
+Interviews_Jobs			- Ok
+Interviews_part2		- Ok
+Login					- Ok
+Profile					- Ok
+Profile_Resume			- Ok
+Profile_User			- Ok
+Resume					- Ok
+SavedJobs_Resume		- Ok
+SavedJobs_Resume_part2	- Ok
+Search_Results_part1	- Ok
+Search_Results_part1b	- Ok
+Search_Results_part2_v2b- Ok
+Signup					- Ok
+Signup_b				- Ok
+Signup_us				- Ok

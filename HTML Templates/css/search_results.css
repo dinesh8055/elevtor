@@ -1,0 +1,321 @@
+/* ELEMENTS */
+body{
+	padding-top: 4.5em;
+	color: #00aeef;
+	font-family: AvenirLight;
+	letter-spacing: 0.1em;
+}
+
+input {
+	padding-left: 0.5em;
+	font-size: 1.3em;
+	line-height: 0.5em;
+	letter-spacing: 0.1em;
+	vertical-align: middle;
+}
+
+a {
+	color: #00aeef;
+}
+
+h1 {
+	font-family: AvenirHeavy;
+	font-size: 2.875em;
+	letter-spacing: 0.1em;
+}
+
+h2 {
+    font-family: AvenirLight;
+	font-size: 1.8em;
+    text-align: center;
+}
+
+h3 {
+    font-family: AvenirMedium;
+	font-size: 1.5em;
+    text-align: left;
+}
+
+h4 {
+    font-size: 1.4em;
+	letter-spacing: 0.1em;
+}
+
+h5 {
+    font-size: 1.2em;
+	letter-spacing: 0.1em;
+    line-height: 1.4em;
+}
+
+label {
+    font-weight: 400;
+}
+
+/* CLASSES */
+.center_align {
+	text-align: center;
+}
+
+.float_left {
+	float: left;
+}
+
+.float_right {
+	float: right;
+}
+
+.menu-bar {
+	height: 4.5em;
+ 	background-color: white;
+ 	box-shadow: 0 0.063em 0.563em 0.063em rgba(0, 174, 239, 0.2);
+}
+
+.navbar-left {
+	padding-top: 1em;
+	padding-left: 2em;
+}
+
+.sign-in {
+	margin-right: 2em;
+	line-height: 3.5em;
+	font-size: 1.25em;
+	letter-spacing: 0.1em;
+}
+
+.sidebar_options {
+    font-size: 1.25em;
+    letter-spacing: 0.1em;
+}
+
+.active {
+    font-family: AvenirHeavy;
+}
+
+.signup_forms {
+	height: 2.2em;
+	width: 35%;
+    margin-right: 1em;
+    text-align: left;
+	border: 0.063em solid #00aeef;
+	border-radius: 0.5em;
+}
+
+::-webkit-input-placeholder  {
+	color: #00aeef;
+	letter-spacing: 0.1em;
+    font-style: italic;
+    text-align: left;
+}
+
+:-moz-placeholder {
+	color: #00aeef;
+	letter-spacing: 0.1em;
+    font-style: italic;
+    text-align: left;
+}
+
+.radio_head {
+    padding-top: 1em;
+    padding-bottom: 0.5em;
+}
+
+input .radio_options {
+    padding-top: 10em;
+}
+
+.jobs_form {
+    width: 50%;
+	height: auto;
+    letter-spacing: 0.2em;
+	background-color: #00aeef;
+	border: 0.188em solid #00aeef;
+	border-radius: 0.5em;
+	box-shadow: 0 0.313em 0.563em 0.063em rgba(0, 174, 239, 0.2);
+}
+
+.salary_select {
+    margin-top: 0.3em;
+    font-size: 1.5em;
+    letter-spacing: 0.1em;
+    border: 0em solid #00aeef;
+}
+
+.job_box {
+	width: 50%; /* Somente para col-md */
+	height: auto;
+	border: 0.063em solid #00aeef;
+    padding-bottom: 1em;
+}
+
+.results_structure {
+    height: 100%;
+    border-top: 0.063em solid #00aeef;
+    border-right: 0.063em solid #00aeef;
+    /* USED TO MAKE THE GREY BACKGROUND */
+    /*background-color: rgba(50, 50, 50, 0.2);*/
+}
+
+.results_structure2 {
+    height: 100%;
+    padding-bottom: 1em;
+    border: 0.063em solid #00aeef;
+}
+
+.job_button {
+    width: 100%;
+	height: 3em;
+    letter-spacing: 0.2em;
+	background-color: #00aeef;
+	border: 0.188em solid #00aeef;
+	border-radius: 0.5em;
+	box-shadow: 0 0.313em 0.563em 0.063em rgba(0, 174, 239, 0.8);
+}
+
+.invert_job_button {
+    width: 20%;
+	height: 3em;
+    letter-spacing: 0.2em;
+	background-color: #fff;
+	border: 0.188em solid #fff;
+	border-radius: 0.5em;
+	box-shadow: 0 0.313em 0.563em 0.063em rgba(0, 0, 0, 0.2);
+}
+
+.save_button {
+    width: 100%;
+	height: 2.5em;
+    letter-spacing: 0.2em;
+	background-color: #00aeef;
+	border: 0.188em solid #00aeef;
+	border-radius: 0.5em;
+	box-shadow: 0 0.313em 0.563em 0.063em rgba(0, 174, 239, 0.2);
+}
+
+.save_button_text {
+	color: #fefefe;
+    font-family: AvenirHeavy;
+	font-size: 1em;
+}
+
+.button_text {
+	color: #fefefe;
+    font-family: AvenirHeavy;
+	font-size: 1.1em;
+}
+
+.invert_button_text {
+	color: #00aeef;
+    font-family: AvenirHeavy;
+	font-size: 1.3em;
+}
+
+.job_logo {
+    height: 1.5em;
+    margin-top: 1.3em;
+    margin-left: -0.5em;
+}
+
+.job_icons {
+    height: 3em;
+    padding-top: 1em;
+}
+
+.apply_button {
+    width: 6em;
+	height: 2.5em;
+    letter-spacing: 0.2em;
+	background-color: #05cc47;
+	border: 0.188em solid #05cc47;
+	border-radius: 0.5em;
+	box-shadow: 0 0.313em 0.125em rgba(0, 0, 0, 0.3);
+}
+
+.listing {
+    position: absolute;
+    text-align: center;
+    margin-top: -0.5em;
+    font-size: 1em;
+    font-style: italic;
+    color: #bbb;
+}
+
+.listing_detail {
+    position: absolute;
+    text-align: center;
+    font-size: 1em;
+    font-style: italic;
+    line-height: 1em;
+    color: #bbb;
+}
+
+.social_links {
+    height: 1.5em;
+}
+
+.insert_video {
+    height: 25em;
+    width: 100%;
+    background-color: rgba(0, 174, 239, 0.2);
+}
+
+.bottom_space {
+    padding-bottom: 3em;
+}
+
+/* USED TO REMOVE SPACING BETWEEN COLUMNS */
+.row.no_gutter [class*='col-']:not(:first-child),
+.row.no_gutter [class*='col-']:not(:last-child) {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+/* USED TO PERSONALIZE THE RADIO BUTTON */
+input[type=radio]:not(old){
+    width     : 2em;
+    margin    : 0;
+    padding   : 0;
+    font-size : 1em;
+    opacity   : 0;
+}
+
+input[type=radio]:not(old) + label{
+    display      : inline-block;
+    margin-left  : -2em;
+    line-height  : 1.5em;
+}
+
+input[type=radio]:not(old) + label > span{
+    display          : inline-block;
+    width            : 1.5em;
+    height           : 1.5em;
+    margin           : 0.25em 0.5em 0.25em 0.5em;
+    border           : 0.0625em solid rgb(0,174,239);
+    border-radius    : 100%;
+    vertical-align   : middle;
+}
+
+input[type=radio]:not(old):checked + label > span{
+    border           : 0.0625em solid rgb(37,151,204);
+    background-color : rgb(43,179,243);
+}
+
+/* RESPONSIVE DETAILS */
+@media (max-width: 768px) {
+    body {
+    	font-size: 80%;
+    }
+
+    #logo_image {
+    	height: 1.5em;
+    }
+}
+
+@media (max-width: 1365px) {
+    body {
+    	font-size: 90%;
+    }
+
+    #logo_image {
+    	height: 2.5em;
+    }
+}
