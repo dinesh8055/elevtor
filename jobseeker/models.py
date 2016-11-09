@@ -40,7 +40,11 @@ class User(models.Model):
 
 class Skill(models.Model):
     user = models.ForeignKey(User, on_delete=models.CASCADE)
+<<<<<<< HEAD
     first_skill = models.CharField(max_length=50
+=======
+    first_skill = models.CharField(max_length=50)
+>>>>>>> group2/django
     second_skill = models.CharField(max_length=50)
     third_skill = models.CharField(max_length=50)
     fourth_skill = models.CharField(max_length=50)
