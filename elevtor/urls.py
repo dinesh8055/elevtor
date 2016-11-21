@@ -13,9 +13,16 @@ Including another URLconf
     1. Import the include() function: from django.conf.urls import url, include
     2. Add a URL to urlpatterns:  url(r'^blog/', include('blog.urls'))
 """
-from django.conf.urls import url
+from django.conf.urls import include, url
 from django.contrib import admin
+from django.views.generic import TemplateView, RedirectView
+
+from rest_framework_swagger.views import get_swagger_view
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
+    url(r'^authentication/', include('rest_auth.urls')),
+    url(r'^authentication/registration/', include('rest_auth.registration.urls')),
+    url(r'^account/', include('allauth.urls')),
+    url(r'^docs/$', get_swagger_view(title='Elevtor API Docs'), name='api_docs')
 ]
